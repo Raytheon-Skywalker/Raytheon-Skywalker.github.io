@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    Raytheon Skywalker
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://Raytheon-Skywalker.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://Raytheon-Skywalker.github.io">
+                    Raytheon Skywalker
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        首页
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        归档
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        标签
+                    </a>
+                    
+                    <a class="menu-item" href="/post/about">
+                        关于
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1615829495399" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://Raytheon-Skywalker.github.io">
+                            Raytheon Skywalker
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1615829495399" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            首页
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            归档
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            标签
+                        </a>
+                        
+                        <a class="menu-item" href="/post/about">
+                            关于
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                Raytheon 博客Dev大纲设计
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        Raytheon Skywalker
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2021-03-14</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">1.9
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">497</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://Raytheon-Skywalker.github.io/tag/btU8sxupY/">Dev life</a>
+                                
+                            </span>
+                                        
+                                            Views:
+                                            <span data-hk-page="current"> - </span>
+                                            
+                                </div>
+                                
+                        </header>
+                        
+                        <div class="post-content">
+                            <blockquote>
+<p>试图对一些开发中常见的场景进行方法论的构建, 前期可能都是知识的学习, 大部分还是网上搜集资料的简单归类合并等, 期望能逐渐的形成一些自己的观点与认知.</p>
+</blockquote>
+<ol>
+<li>
+<h2 id="自我管理与问题分析">自我管理与问题分析</h2>
+<ol>
+<li>
+<h3 id="swotpdca6w2hsmart等8种人生工具">SWOT/PDCA/6W2H/SMART等8种人生工具</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="设计模式">设计模式</h2>
+<ol>
+<li>
+<h3 id="gof-设计模式">GoF 设计模式</h3>
+</li>
+<li>
+<h3 id="spring中的设计模式">Spring中的设计模式</h3>
+</li>
+<li>
+<h3 id="mybatis中的设计模式">MyBatis中的设计模式</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="分布式理论">分布式理论</h2>
+<ol>
+<li>
+<h3 id="分布式理论与协议">分布式理论与协议</h3>
+<ol>
+<li>
+<h3 id="capbase">CAP/BASE</h3>
+</li>
+<li>
+<h3 id="分布式系统协议paxos-raft和zab">分布式系统协议Paxos、Raft和ZAB</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="数据一致性">数据一致性</h3>
+<ol>
+<li>
+<h3 id="mysql与redis的数据一致性方案探讨">MySql与Redis的数据一致性方案探讨</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="分布式锁">分布式锁</h3>
+</li>
+<li>
+<h3 id="分布式事务">分布式事务</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="日志系统">日志系统</h2>
+<ol>
+<li>
+<h3 id="elk">ELK</h3>
+</li>
+<li>
+<h3 id="log4j2">log4j2</h3>
+<ol>
+<li>
+<h3 id="log4j2中的数据结构异步日志ringbuffer">log4j2中的数据结构(异步日志Ringbuffer)</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="容器与编排">容器与编排</h2>
+<ol>
+<li>
+<h3 id="docker">Docker</h3>
+</li>
+<li>
+<h3 id="podman">Podman</h3>
+</li>
+<li>
+<h3 id="k8s">K8S</h3>
+</li>
+<li>
+<h3 id="lstio">lstio</h3>
+</li>
+<li>
+<h3 id="spring-cloud-kubernetes">Spring Cloud Kubernetes</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="ddd架构设计">DDD架构设计</h2>
+</li>
+<li>
+<h2 id="系统设计">系统设计</h2>
+<ol>
+<li>
+<h3 id="设计常识还有哪些">设计常识(还有哪些?)</h3>
+<ol>
+<li>
+<h3 id="nginx-100k-内存越大能处理的并发越高">Nginx 100K, 内存越大能处理的并发越高</h3>
+</li>
+<li>
+<h3 id="redis-getset-10~100k">Redis GET/SET 10~100K</h3>
+</li>
+<li>
+<h3 id="mysqlpgsql-只读-几百k写-最多100k">MySql/PGSql 只读 几百K,写 最多100K</h3>
+</li>
+<li>
+<h3 id="epoll-1g内存是10w个链接">epoll -&gt; 1G内存是10W个链接</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="微服务">微服务</h2>
+<ol>
+<li>
+<h3 id="服务发现">服务发现</h3>
+</li>
+<li>
+<h3 id="雪崩熔断">雪崩熔断</h3>
+</li>
+<li>
+<h3 id="服务降级">服务降级</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="api设计">API设计</h2>
+<ol>
+<li>
+<h3 id="google-api设计学习">Google API设计学习</h3>
+</li>
+<li>
+<h3 id="辅助工具swagger">辅助工具swagger</h3>
+</li>
+<li>
+<h3 id="restful-api">RESTful api</h3>
+</li>
+<li>
+<h3 id="graphql-api">GraphQL api</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="数据库">数据库</h2>
+</li>
+<li>
+<h3 id="索引">索引</h3>
+<ol>
+<li>
+<h3 id="索引中的数据结构红黑树">索引中的数据结构(红黑树)</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="锁">锁</h3>
+</li>
+<li>
+<h3 id="数据库理论中的范式">数据库理论中的范式</h3>
+</li>
+<li>
+<h2 id="网络与协议">网络与协议</h2>
+<ol>
+<li>
+<h3 id="tcpiphttpsocket区别">TCP/IP,HTTP,SOCKET区别</h3>
+</li>
+<li>
+<h3 id="抓包与分析">抓包与分析</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="cicd">CI/CD</h2>
+<ol>
+<li>
+<h3 id="jks是否能用到每日的生活中">JKS是否能用到每日的生活中</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="框架">框架</h2>
+<ol>
+<li>
+<h3 id="spring-core">Spring core</h3>
+<ol>
+<li>
+<h3 id="aopioc">AOP/IoC</h3>
+</li>
+<li>
+<h3 id="spring-valid-check">Spring valid check</h3>
+</li>
+<li>
+<h3 id="统一异常处理">统一异常处理</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="spring-mvcbootcloud">Spring MVC/Boot/Cloud</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="字节码操作">字节码操作</h2>
+<ol>
+<li>
+<h3 id="lombok原理">lombok原理</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="多线程与高并发">多线程与高并发</h2>
+<ol>
+<li>
+<h3 id="forkjoin">fork/join</h3>
+</li>
+<li>
+<h3 id="akka">akka</h3>
+</li>
+<li>
+<h3 id="executor-threadpool">executor / threadpool</h3>
+<ol>
+<li>
+<h3 id="数据库连接池">数据库连接池</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="spring-async-与completeable">spring @Async 与completeable</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="mq">MQ</h2>
+<ol>
+<li>
+<h3 id="kafka">Kafka</h3>
+</li>
+<li>
+<h3 id="rabbitmq">RabbitMQ</h3>
+</li>
+<li>
+<h3 id="rocketmq">RocketMQ</h3>
+</li>
+<li>
+<h3 id="mqtt-iot领域">MQTT (IoT领域)</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="典型项目">典型项目</h2>
+<ol>
+<li>
+<h3 id="netty">Netty</h3>
+<ol>
+<li>
+<h3 id="netty中的数据结构为什么这么快-epoll">Netty中的数据结构,为什么这么快 epoll</h3>
+</li>
+<li>
+<h3 id="lmax-disruptor">LMAX Disruptor</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="工具类">工具类</h2>
+<ol>
+<li>
+<h3 id="加解密">加解密</h3>
+</li>
+<li>
+<h3 id="guava框架">Guava框架</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="开发工具">开发工具</h2>
+<ol>
+<li>
+<h3 id="idea使用技巧">IDEA使用技巧</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="缓存">缓存</h2>
+<ol>
+<li>
+<h3 id="guava-cache">Guava cache</h3>
+</li>
+<li>
+<h3 id="caffeine-cache">Caffeine cache</h3>
+</li>
+<li>
+<h3 id="redis">Redis</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="安全与验证">安全与验证</h2>
+<ol>
+<li>
+<h3 id="oauth-20">OAuth 2.0</h3>
+</li>
+<li>
+<h3 id="单点登录">单点登录</h3>
+</li>
+<li>
+<h3 id="会话管理">会话管理</h3>
+<ol>
+<li>
+<h3 id="spring-session">spring session</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="单元测试">单元测试</h2>
+<ol>
+<li>
+<h3 id="mock与分层测试">Mock与分层测试</h3>
+</li>
+<li>
+<h3 id="后端模拟">后端模拟</h3>
+</li>
+<li>
+<h3 id="testcontainer">Testcontainer</h3>
+</li>
+<li>
+<h3 id="spring-test">Spring Test</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="性能测试">性能测试</h2>
+<ol>
+<li>
+<h3 id="jmeter">JMeter</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="算法与数据结构">算法与数据结构</h2>
+<ol>
+<li>
+<h3 id="leetcode">leetcode</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="业务逻辑">业务逻辑</h2>
+<ol>
+<li>
+<h3 id="payment相关知识">Payment相关知识</h3>
+</li>
+</ol>
+</li>
+</ol>
+
+                        </div>
+                        
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>Raytheon Skywalker</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/">https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/&sharesource=qzone&title=Raytheon 博客Dev大纲设计&pics=https://Raytheon-Skywalker.github.io/images/avatar.png?v=1615829495399&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/&sharesource=weibo&title=Raytheon 博客Dev大纲设计 + " - " + &pic="https://Raytheon-Skywalker.github.io/images/avatar.png?v=1615829495399 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                            <div class="reward ">
+                                                                <div class="reward-button ">&yen;
+                                                                    <span class="reward-code "> 
+                                                                <span class="alipay-code "> <img class="alipay-img " alt = "support " src="https://blog.itjoker.cn/alipay.jpg"><b>Alipay</b> </span>
+                                                                    <span class="wechat-code "> <img alt ="support " class="wechat-img " src="https://blog.itjoker.cn/wechat.jpg"><b>Wechat</b> </span> </span>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://Raytheon-Skywalker.github.io/tag/btU8sxupY/">#
+                                                Dev life
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://Raytheon-Skywalker.github.io/post/hello-gridea/">
+                                                                                                    Hello Gridea
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                    <div class="Like">
+                        <div class="tip" data-tooltip="Do you like it?">
+                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank" title=""><svg class="icon"
+                        aria-hidden="true">
+                        <use xlink:href="#like"></use>
+                    </svg><b class="like_text" id="star"></b></a>
+                        </div>
+                    </div>
+                    
+                        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+                            
+                                <b id="hitokoto"></b><br>
+                                
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        Raytheon Skywalker &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://coding.net" target="_blank">
+                                                Coding.net
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: '',
+                            url: '',
+                            artist: '',
+                            cover: '',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    hitokoto();
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1615829495399);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

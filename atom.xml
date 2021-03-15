@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://Raytheon-Skywalker.github.io</id>
+    <title>Raytheon Skywalker</title>
+    <updated>2021-03-15T17:31:58.329Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://Raytheon-Skywalker.github.io"/>
+    <link rel="self" href="https://Raytheon-Skywalker.github.io/atom.xml"/>
+    <subtitle>Dream big, Work smart, Deliver fast.</subtitle>
+    <logo>https://Raytheon-Skywalker.github.io/images/avatar.png</logo>
+    <icon>https://Raytheon-Skywalker.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, Raytheon Skywalker</rights>
+    <entry>
+        <title type="html"><![CDATA[Raytheon 博客Dev大纲设计]]></title>
+        <id>https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/</id>
+        <link href="https://Raytheon-Skywalker.github.io/post/raytheon-dev-blog-outline/">
+        </link>
+        <updated>2021-03-15T03:13:50.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>试图对一些开发中常见的场景进行方法论的构建, 前期可能都是知识的学习, 大部分还是网上搜集资料的简单归类合并等, 期望能逐渐的形成一些自己的观点与认知.</p>
+</blockquote>
+<ol>
+<li>
+<h2 id="自我管理与问题分析">自我管理与问题分析</h2>
+<ol>
+<li>
+<h3 id="swotpdca6w2hsmart等8种人生工具">SWOT/PDCA/6W2H/SMART等8种人生工具</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="设计模式">设计模式</h2>
+<ol>
+<li>
+<h3 id="gof-设计模式">GoF 设计模式</h3>
+</li>
+<li>
+<h3 id="spring中的设计模式">Spring中的设计模式</h3>
+</li>
+<li>
+<h3 id="mybatis中的设计模式">MyBatis中的设计模式</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="分布式理论">分布式理论</h2>
+<ol>
+<li>
+<h3 id="分布式理论与协议">分布式理论与协议</h3>
+<ol>
+<li>
+<h3 id="capbase">CAP/BASE</h3>
+</li>
+<li>
+<h3 id="分布式系统协议paxos-raft和zab">分布式系统协议Paxos、Raft和ZAB</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="数据一致性">数据一致性</h3>
+<ol>
+<li>
+<h3 id="mysql与redis的数据一致性方案探讨">MySql与Redis的数据一致性方案探讨</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="分布式锁">分布式锁</h3>
+</li>
+<li>
+<h3 id="分布式事务">分布式事务</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="日志系统">日志系统</h2>
+<ol>
+<li>
+<h3 id="elk">ELK</h3>
+</li>
+<li>
+<h3 id="log4j2">log4j2</h3>
+<ol>
+<li>
+<h3 id="log4j2中的数据结构异步日志ringbuffer">log4j2中的数据结构(异步日志Ringbuffer)</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="容器与编排">容器与编排</h2>
+<ol>
+<li>
+<h3 id="docker">Docker</h3>
+</li>
+<li>
+<h3 id="podman">Podman</h3>
+</li>
+<li>
+<h3 id="k8s">K8S</h3>
+</li>
+<li>
+<h3 id="lstio">lstio</h3>
+</li>
+<li>
+<h3 id="spring-cloud-kubernetes">Spring Cloud Kubernetes</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="ddd架构设计">DDD架构设计</h2>
+</li>
+<li>
+<h2 id="系统设计">系统设计</h2>
+<ol>
+<li>
+<h3 id="设计常识还有哪些">设计常识(还有哪些?)</h3>
+<ol>
+<li>
+<h3 id="nginx-100k-内存越大能处理的并发越高">Nginx 100K, 内存越大能处理的并发越高</h3>
+</li>
+<li>
+<h3 id="redis-getset-10~100k">Redis GET/SET 10~100K</h3>
+</li>
+<li>
+<h3 id="mysqlpgsql-只读-几百k写-最多100k">MySql/PGSql 只读 几百K,写 最多100K</h3>
+</li>
+<li>
+<h3 id="epoll-1g内存是10w个链接">epoll -&gt; 1G内存是10W个链接</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="微服务">微服务</h2>
+<ol>
+<li>
+<h3 id="服务发现">服务发现</h3>
+</li>
+<li>
+<h3 id="雪崩熔断">雪崩熔断</h3>
+</li>
+<li>
+<h3 id="服务降级">服务降级</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="api设计">API设计</h2>
+<ol>
+<li>
+<h3 id="google-api设计学习">Google API设计学习</h3>
+</li>
+<li>
+<h3 id="辅助工具swagger">辅助工具swagger</h3>
+</li>
+<li>
+<h3 id="restful-api">RESTful api</h3>
+</li>
+<li>
+<h3 id="graphql-api">GraphQL api</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="数据库">数据库</h2>
+</li>
+<li>
+<h3 id="索引">索引</h3>
+<ol>
+<li>
+<h3 id="索引中的数据结构红黑树">索引中的数据结构(红黑树)</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="锁">锁</h3>
+</li>
+<li>
+<h3 id="数据库理论中的范式">数据库理论中的范式</h3>
+</li>
+<li>
+<h2 id="网络与协议">网络与协议</h2>
+<ol>
+<li>
+<h3 id="tcpiphttpsocket区别">TCP/IP,HTTP,SOCKET区别</h3>
+</li>
+<li>
+<h3 id="抓包与分析">抓包与分析</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="cicd">CI/CD</h2>
+<ol>
+<li>
+<h3 id="jks是否能用到每日的生活中">JKS是否能用到每日的生活中</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="框架">框架</h2>
+<ol>
+<li>
+<h3 id="spring-core">Spring core</h3>
+<ol>
+<li>
+<h3 id="aopioc">AOP/IoC</h3>
+</li>
+<li>
+<h3 id="spring-valid-check">Spring valid check</h3>
+</li>
+<li>
+<h3 id="统一异常处理">统一异常处理</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="spring-mvcbootcloud">Spring MVC/Boot/Cloud</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="字节码操作">字节码操作</h2>
+<ol>
+<li>
+<h3 id="lombok原理">lombok原理</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="多线程与高并发">多线程与高并发</h2>
+<ol>
+<li>
+<h3 id="forkjoin">fork/join</h3>
+</li>
+<li>
+<h3 id="akka">akka</h3>
+</li>
+<li>
+<h3 id="executor-threadpool">executor / threadpool</h3>
+<ol>
+<li>
+<h3 id="数据库连接池">数据库连接池</h3>
+</li>
+</ol>
+</li>
+<li>
+<h3 id="spring-async-与completeable">spring @Async 与completeable</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="mq">MQ</h2>
+<ol>
+<li>
+<h3 id="kafka">Kafka</h3>
+</li>
+<li>
+<h3 id="rabbitmq">RabbitMQ</h3>
+</li>
+<li>
+<h3 id="rocketmq">RocketMQ</h3>
+</li>
+<li>
+<h3 id="mqtt-iot领域">MQTT (IoT领域)</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="典型项目">典型项目</h2>
+<ol>
+<li>
+<h3 id="netty">Netty</h3>
+<ol>
+<li>
+<h3 id="netty中的数据结构为什么这么快-epoll">Netty中的数据结构,为什么这么快 epoll</h3>
+</li>
+<li>
+<h3 id="lmax-disruptor">LMAX Disruptor</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="工具类">工具类</h2>
+<ol>
+<li>
+<h3 id="加解密">加解密</h3>
+</li>
+<li>
+<h3 id="guava框架">Guava框架</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="开发工具">开发工具</h2>
+<ol>
+<li>
+<h3 id="idea使用技巧">IDEA使用技巧</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="缓存">缓存</h2>
+<ol>
+<li>
+<h3 id="guava-cache">Guava cache</h3>
+</li>
+<li>
+<h3 id="caffeine-cache">Caffeine cache</h3>
+</li>
+<li>
+<h3 id="redis">Redis</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="安全与验证">安全与验证</h2>
+<ol>
+<li>
+<h3 id="oauth-20">OAuth 2.0</h3>
+</li>
+<li>
+<h3 id="单点登录">单点登录</h3>
+</li>
+<li>
+<h3 id="会话管理">会话管理</h3>
+<ol>
+<li>
+<h3 id="spring-session">spring session</h3>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="单元测试">单元测试</h2>
+<ol>
+<li>
+<h3 id="mock与分层测试">Mock与分层测试</h3>
+</li>
+<li>
+<h3 id="后端模拟">后端模拟</h3>
+</li>
+<li>
+<h3 id="testcontainer">Testcontainer</h3>
+</li>
+<li>
+<h3 id="spring-test">Spring Test</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="性能测试">性能测试</h2>
+<ol>
+<li>
+<h3 id="jmeter">JMeter</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="算法与数据结构">算法与数据结构</h2>
+<ol>
+<li>
+<h3 id="leetcode">leetcode</h3>
+</li>
+</ol>
+</li>
+<li>
+<h2 id="业务逻辑">业务逻辑</h2>
+<ol>
+<li>
+<h3 id="payment相关知识">Payment相关知识</h3>
+</li>
+</ol>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://Raytheon-Skywalker.github.io/post/hello-gridea/</id>
+        <link href="https://Raytheon-Skywalker.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
