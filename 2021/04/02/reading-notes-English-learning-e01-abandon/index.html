@@ -176,9 +176,26 @@
         
 
         <div class="article-content markdown-body">
-            <h1 id="读书笔记-E01-Abandon"><a href="#读书笔记-E01-Abandon" class="headerlink" title="读书笔记 #E01 Abandon"></a>读书笔记 #E01 Abandon</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">subgraph Word Abandon</span><br><span class="line">    A(abandon) --&gt; |禁令| B(ban)</span><br><span class="line">    A --&gt; |捆绑| C(band)</span><br><span class="line">    C --&gt; |捆绑| C0(bind)</span><br><span class="line">    C --&gt; |被束缚的,跳| C1(bound)</span><br><span class="line">    C1 --&gt; |弹起|F(bounce)</span><br><span class="line">    C1 --&gt; |边界|C2(boundary)</span><br><span class="line">    C --&gt; |绷带,绑|C3(bandage)</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+            <h1 id="读书笔记-E01-Abandon"><a href="#读书笔记-E01-Abandon" class="headerlink" title="读书笔记 #E01 Abandon"></a>读书笔记 #E01 Abandon</h1><pre class="mermaid">graph TD
+subgraph Word Abandon
+    A(abandon) --> |禁令| B(ban)
+    A --> |捆绑| C(band)
+    C --> |捆绑| C0(bind)
+    C --> |被束缚的,跳| C1(bound)
+    C1 --> |弹起|F(bounce)
+    C1 --> |边界|C2(boundary)
+    C --> |绷带,绑|C3(bandage)
+end</pre>
 
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">graph TD   </span><br><span class="line">subgraph 词根词缀</span><br><span class="line">    Z0((前缀)) --&gt; Z01[英语中的前缀无一例外表示的都是方向] --&gt; Z02[上下前后里外等]</span><br><span class="line">    Z02 --&gt; Z03[a] </span><br><span class="line">    Z03 --&gt; |在,朝向| Z030[at]</span><br><span class="line">    Z03 --&gt; |离开| Z031[ab]</span><br><span class="line">    Z1((后缀))</span><br><span class="line">    Z1 --&gt; |n.&#x2F;adj.|Z11[ary]</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<pre class="mermaid">graph TD   
+subgraph 词根词缀
+    Z0((前缀)) --> Z01[英语中的前缀无一例外表示的都是方向] --> Z02[上下前后里外等]
+    Z02 --> Z03[a] 
+    Z03 --> |在,朝向| Z030[at]
+    Z03 --> |离开| Z031[ab]
+    Z1((后缀))
+    Z1 --> |n./adj.|Z11[ary]
+end</pre>
 
         </div>
 
